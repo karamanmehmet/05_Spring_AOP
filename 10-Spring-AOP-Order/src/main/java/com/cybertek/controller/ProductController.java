@@ -58,6 +58,7 @@ public class ProductController {
 	}
 
 	@PostMapping
+	@ExecutionTime
 	public List<Product> createProduct(@RequestBody Product product) {
 		
 				
